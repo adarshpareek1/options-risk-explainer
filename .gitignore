@@ -1,4 +1,4 @@
-# Logs
+# Logs & Debug
 logs
 *.log
 npm-debug.log*
@@ -6,11 +6,24 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
+task-*.log
 
+# Dependencies & Build Output
 node_modules
 dist
 dist-ssr
 *.local
+
+# Agent, Brain & Artifact directories
+.gemini
+brain
+artifacts
+scratch
+.tempmediaStorage
+.system_generated
+.agents
+*.webp
+transcript*.jsonl
 
 # Editor directories and files
 .vscode/*
